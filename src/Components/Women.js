@@ -7,8 +7,8 @@ const Women = () => {
   const [cartCount, setCartCount] = useState(0);
   const { CartItems, itemsSet } = useContext(datatransfer)
 
-  const navigate=useNavigate();
-  const gotobag=()=>{
+  const navigate = useNavigate();
+  const gotobag = () => {
     navigate("/bag");
   }
 
@@ -49,10 +49,10 @@ const Women = () => {
                 {/* <span><button className="cartadd" onClick={() => CartItems(product.id)}>Add to cart</button></span> */}
                 {
                   !itemsSet.has(product.id)
-                  ?
-                  <span><button className="cartadd" onClick={() => CartItems(product.id)}>Add to cart</button></span>
-                  :
-                  <span><button onClick={gotobag} className="cartadd">Go to cart</button></span>
+                    ?
+                    <span><button className="cartadd" onClick={() => CartItems(product.id)}>Add to cart</button></span>
+                    :
+                    <span><button onClick={gotobag} className="cartadd">Go to cart</button></span>
                 }
               </h4>
             </div>

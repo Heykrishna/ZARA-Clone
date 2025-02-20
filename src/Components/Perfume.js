@@ -1,12 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { NavLink,useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import data from './Api';
 import { datatransfer } from '../App';
 
 const Perfume = () => {
   const [cartCount, setCartCount] = useState(0);
-  const navigate=useNavigate();
-  const gotobag=()=>{
+  const navigate = useNavigate();
+  const gotobag = () => {
     navigate("/bag");
   }
 
@@ -48,10 +48,10 @@ const Perfume = () => {
                 <span className="prevprice">&#8377;{product.prevPrice}</span> &#8377;{product.price} <span className="discount">{product.discount}%</span>
                 {
                   !itemsSet.has(product.id)
-                  ?
-                  <span><button className="cartadd" onClick={() => CartItems(product.id)}>Add to cart</button></span>
-                  :
-                  <span><button onClick={gotobag} className="cartadd">Go to cart</button></span>
+                    ?
+                    <span><button className="cartadd" onClick={() => CartItems(product.id)}>Add to cart</button></span>
+                    :
+                    <span><button onClick={gotobag} className="cartadd">Go to cart</button></span>
                 }
               </h4>
             </div>

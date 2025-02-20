@@ -4,8 +4,8 @@ import data from './Api';
 import { datatransfer } from '../App';
 const Men = () => {
   const { CartItems, itemsSet } = useContext(datatransfer)
-  const navigate=useNavigate();
-  const gotobag=()=>{
+  const navigate = useNavigate();
+  const gotobag = () => {
     navigate("/bag");
   }
 

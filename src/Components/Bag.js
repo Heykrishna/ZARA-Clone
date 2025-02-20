@@ -77,11 +77,11 @@ const Bag = () => {
 
         <div className="total-amount">
           {
-            itemsSet.size===0
-            ?
-            <></>
-            :
-          <h3 className='total'>Total: &#8377;{calculateTotal()}</h3>
+            itemsSet.size === 0
+              ?
+              <></>
+              :
+              <h3 className='total'>Total: &#8377;{calculateTotal()}</h3>
           }
         </div>
       </div>

@@ -8,8 +8,8 @@ const Kids = () => {
   const [cartCount, setCartCount] = useState(0);
   const { CartItems, itemsSet } = useContext(datatransfer)
 
-  const navigate=useNavigate();
-  const gotobag=()=>{
+  const navigate = useNavigate();
+  const gotobag = () => {
     navigate("/bag");
   }
 

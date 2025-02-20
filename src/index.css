@@ -22,14 +22,14 @@
 
 .navbar li {
   list-style: none;
-  
+
 }
 
 .navbar li a {
   text-decoration: none;
   color: black;
   margin: 14px;
-  
+
 }
 
 .navbar li a:hover {
@@ -184,7 +184,8 @@
   margin-left: 10px;
   margin-top: -7px;
 }
-.categoryimg:hover{
+
+.categoryimg:hover {
   transform: translateY(-5px);
   box-shadow: 2px 5px 8px #555;
 }
@@ -357,7 +358,7 @@ button[type="submit"]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .contact-box input,
@@ -374,18 +375,20 @@ button[type="submit"]:hover {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #4CAF50; /* Green color, adjust as needed */
+  background-color: #4CAF50;
+  /* Green color, adjust as needed */
   color: white;
   font-size: 16px;
   cursor: pointer;
 }
 
 .contact-box button:hover {
-  background-color: #45a049; /* Darker green color on hover */
+  background-color: #45a049;
+  /* Darker green color on hover */
 }
 
 /* shopping bag */
-.fav{
+.fav {
   height: 25px;
   width: 100%;
   margin-top: 120px;
@@ -395,7 +398,8 @@ button[type="submit"]:hover {
   justify-content: center;
   align-items: center;
 }
-.first{
+
+.first {
   height: 25px;
   width: 100%;
   border-style: solid;
@@ -403,7 +407,8 @@ button[type="submit"]:hover {
   justify-content: center;
   align-items: center;
 }
-.sec{
+
+.sec {
   height: 25px;
   width: 100%;
   border-style: solid;
@@ -411,7 +416,8 @@ button[type="submit"]:hover {
   justify-content: center;
   align-items: center;
 }
-p{
+
+p {
   font-size: 12px;
 }
 
@@ -487,6 +493,7 @@ h2 {
   font-size: 18px;
   font-weight: bold;
 }
-.total{
+
+.total {
   text-align: center;
 }

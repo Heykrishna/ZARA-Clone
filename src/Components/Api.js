@@ -6,7 +6,7 @@ const data = [
         "prevPrice": 5999,
         "price": 5699,
         "discount": "15%",
-        "category":"men"
+        "category": "men"
     },
     {
         "id": 1,
@@ -15,7 +15,7 @@ const data = [
         "prevPrice": 4499,
         "price": 3999,
         "discount": "20%",
-        "category":"men"
+        "category": "men"
     },
     {
         "id": 2,
@@ -24,7 +24,7 @@ const data = [
         "prevPrice": 3499,
         "price": 3199,
         "discount": "10%",
-        "category":"men"
+        "category": "men"
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@ const data = [
         "prevPrice": 5999,
         "price": 5699,
         "discount": "15%",
-        "category":"men"
+        "category": "men"
     },
     {
         "id": 4,
@@ -42,7 +42,7 @@ const data = [
         "prevPrice": 7899,
         "price": 7299,
         "discount": "10%",
-        "category":"men"
+        "category": "men"
     },
     {
         "id": 5,
@@ -51,7 +51,7 @@ const data = [
         "prevPrice": 6499,
         "price": 6199,
         "discount": "15%",
-        "category":"men"
+        "category": "men"
     },
     {
         "id": 6,
@@ -60,7 +60,7 @@ const data = [
         "prevPrice": 4499,
         "price": 3699,
         "discount": "30%",
-        "category":"men"
+        "category": "men"
     },
     {
         "id": 7,
@@ -69,7 +69,7 @@ const data = [
         "prevPrice": 5599,
         "price": 5099,
         "discount": "30%",
-        "category":"men"
+        "category": "men"
     },
     {
         "id": 8,
@@ -78,7 +78,7 @@ const data = [
         "prevPrice": 3999,
         "price": 2999,
         "discount": "25%",
-        "category":"men"
+        "category": "men"
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@ const data = [
         "prevPrice": 5199,
         "price": 4499,
         "discount": "22%",
-        "category":"men"
+        "category": "men"
     },
     {
         "id": 10,
@@ -96,7 +96,7 @@ const data = [
         "prevPrice": 8499,
         "price": 8000,
         "discount": "8%",
-        "category":"men"
+        "category": "men"
     },
     {
         "id": 11,
@@ -105,7 +105,7 @@ const data = [
         "prevPrice": 9999,
         "price": 6999,
         "discount": "30%",
-        "category":"men"
+        "category": "men"
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@ const data = [
         "prevPrice": 2499,
         "price": 1999,
         "discount": "20%",
-        "category":"perfume"
+        "category": "perfume"
     },
     {
         "id": 14,
@@ -123,7 +123,7 @@ const data = [
         "prevPrice": 1999,
         "price": 1799,
         "discount": "10%",
-        "category":"perfume"
+        "category": "perfume"
     },
     {
         "id": 15,
@@ -132,7 +132,7 @@ const data = [
         "prevPrice": 2999,
         "price": 2499,
         "discount": "16.67%",
-        "category":"perfume"
+        "category": "perfume"
     },
     {
         "id": 16,
@@ -141,7 +141,7 @@ const data = [
         "prevPrice": 2199,
         "price": 1899,
         "discount": "13.64%",
-        "category":"perfume"
+        "category": "perfume"
     },
     {
         "id": 17,
@@ -150,7 +150,7 @@ const data = [
         "prevPrice": 1799,
         "price": 1499,
         "discount": "16.67%",
-        "category":"perfume"
+        "category": "perfume"
     },
     {
         "id": 18,
@@ -159,7 +159,7 @@ const data = [
         "prevPrice": 2999,
         "price": 2699,
         "discount": "10%",
-        "category":"perfume"
+        "category": "perfume"
     },
     {
         "id": 19,
@@ -168,7 +168,7 @@ const data = [
         "prevPrice": 2499,
         "price": 2199,
         "discount": "12%",
-        "category":"perfume"
+        "category": "perfume"
     },
     {
         "id": 20,
@@ -177,7 +177,7 @@ const data = [
         "prevPrice": 2999,
         "price": 2799,
         "discount": "6.67%",
-        "category":"perfume"
+        "category": "perfume"
     },
     {
         "id": 21,
@@ -187,7 +187,7 @@ const data = [
         "price": 3999,
         "discount": "30%",
         "cartButtonId": "add-to-cart-1",
-        "category":"women"
+        "category": "women"
     },
     {
         "id": 22,
@@ -197,7 +197,7 @@ const data = [
         "price": 1299,
         "discount": "20%",
         "cartButtonId": "add-to-cart-2",
-        "category":"women"
+        "category": "women"
     },
     {
         "id": 23,
@@ -207,7 +207,7 @@ const data = [
         "price": 2999,
         "discount": "25%",
         "cartButtonId": "add-to-cart-3",
-        "category":"women"
+        "category": "women"
     },
     {
         "id": 24,
@@ -217,7 +217,7 @@ const data = [
         "price": 1349,
         "discount": "20%",
         "cartButtonId": "add-to-cart-4",
-        "category":"women"
+        "category": "women"
     },
     {
         "id": 25,
@@ -227,7 +227,7 @@ const data = [
         "price": 1799,
         "discount": "10%",
         "cartButtonId": "add-to-cart-5",
-        "category":"women"
+        "category": "women"
     },
     {
         "id": 26,
@@ -237,7 +237,7 @@ const data = [
         "price": 1299,
         "discount": "30%",
         "cartButtonId": "add-to-cart-6",
-        "category":"women"
+        "category": "women"
     },
     {
         "id": 27,
@@ -247,7 +247,7 @@ const data = [
         "price": 3999,
         "discount": "30%",
         "cartButtonId": "add-to-cart-1",
-        "category":"women"
+        "category": "women"
     },
     {
         "id": 28,
@@ -257,7 +257,7 @@ const data = [
         "price": 1299,
         "discount": "20%",
         "cartButtonId": "add-to-cart-2",
-        "category":"women"
+        "category": "women"
     },
     {
         "id": 29,
@@ -267,7 +267,7 @@ const data = [
         "price": 2999,
         "discount": "25%",
         "cartButtonId": "add-to-cart-3",
-        "category":"women"
+        "category": "women"
     },
     {
         "id": 30,
@@ -277,7 +277,7 @@ const data = [
         "price": 1349,
         "discount": "20%",
         "cartButtonId": "add-to-cart-4",
-        "category":"women"
+        "category": "women"
     },
     {
         "id": 31,
@@ -287,7 +287,7 @@ const data = [
         "price": 1799,
         "discount": "10%",
         "cartButtonId": "add-to-cart-5",
-        "category":"women"
+        "category": "women"
     },
     {
         "id": 32,
@@ -297,7 +297,7 @@ const data = [
         "price": 1299,
         "discount": "30%",
         "cartButtonId": "add-to-cart-6",
-        "category":"women"
+        "category": "women"
     },
     {
         "id": 33,
@@ -307,7 +307,7 @@ const data = [
         "price": 3299,
         "discount": "10%",
         "cartButton": "Add to cart",
-        "category":"kids"
+        "category": "kids"
     },
     {
         "id": 34,
@@ -317,7 +317,7 @@ const data = [
         "price": 5899,
         "discount": "22%",
         "cartButton": "Add to cart",
-        "category":"kids"
+        "category": "kids"
     },
     {
         "id": 35,
@@ -327,7 +327,7 @@ const data = [
         "price": 4099,
         "discount": "25%",
         "cartButton": "Add to cart",
-        "category":"kids"
+        "category": "kids"
     },
     {
         "id": 36,
@@ -337,7 +337,7 @@ const data = [
         "price": 3999,
         "discount": "15%",
         "cartButton": "Add to cart",
-        "category":"kids"
+        "category": "kids"
     },
     {
         "id": 37,
@@ -347,7 +347,7 @@ const data = [
         "price": 3999,
         "discount": "12%",
         "cartButton": "Add to cart",
-        "category":"kids"
+        "category": "kids"
     },
     {
         "id": 38,
@@ -357,7 +357,7 @@ const data = [
         "price": 2299,
         "discount": "20%",
         "cartButton": "Add to cart",
-        "category":"kids"
+        "category": "kids"
     },
     {
         "id": 39,
@@ -367,7 +367,7 @@ const data = [
         "price": 2699,
         "discount": "15%",
         "cartButton": "Add to cart",
-        "category":"kids"
+        "category": "kids"
     },
     {
         "id": 40,
@@ -377,7 +377,7 @@ const data = [
         "price": 2899,
         "discount": "25%",
         "cartButton": "Add to cart",
-        "category":"kids"
+        "category": "kids"
     },
     {
         "id": 41,
@@ -387,7 +387,7 @@ const data = [
         "price": 2999,
         "discount": "20%",
         "cartButton": "Add to cart",
-        "category":"kids"
+        "category": "kids"
     },
     {
         "id": 42,
@@ -397,7 +397,7 @@ const data = [
         "price": 3199,
         "discount": "10%",
         "cartButton": "Add to cart",
-        "category":"kids"
+        "category": "kids"
     },
     {
         "id": 43,
@@ -407,7 +407,7 @@ const data = [
         "price": 2999,
         "discount": "20%",
         "cartButton": "Add to cart",
-        "category":"kids"
+        "category": "kids"
     },
     {
         "id": 44,
@@ -417,7 +417,7 @@ const data = [
         "price": 2199,
         "discount": "15%",
         "cartButton": "Add to cart",
-        "category":"kids"
+        "category": "kids"
     }
 ]
 

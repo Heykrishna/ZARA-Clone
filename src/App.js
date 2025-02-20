@@ -91,7 +91,7 @@ function App() {
 
   return (
     <>
-      <datatransfer.Provider value={{ CartItems, itemsSet,setItemsSet }}>
+      <datatransfer.Provider value={{ CartItems, itemsSet, setItemsSet }}>
         <Router>
           <Routes>
             <Route exact path="/" element={<MainPage />}></Route>

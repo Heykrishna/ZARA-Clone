@@ -29,19 +29,19 @@ const Login = () => {
           <div>
             <form className="logininfo" onSubmit={validateForm}>
               <h3>Email</h3>
-              <input 
-                type="email" 
-                name="email" 
-                placeholder="Email" 
-                value={email} 
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
               <h3>Password</h3>
-              <input 
-                type="password" 
-                name="password" 
-                placeholder="Password" 
-                value={password} 
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
               <br />

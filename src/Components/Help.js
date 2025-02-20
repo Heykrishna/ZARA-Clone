@@ -32,28 +32,28 @@ const Help = () => {
       Subject: 'Contact Form Submission',
       Body: body,
     })
-    .then(() => {
-      alert('Message sent successfully!');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        help: ''
-      });
-    })
-    .catch((error) => console.error(error));
+      .then(() => {
+        alert('Message sent successfully!');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          help: ''
+        });
+      })
+      .catch((error) => console.error(error));
   };
 
   return (
     <div>
-       <ul className="loginul">
+      <ul className="loginul">
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/login">Login</NavLink></li>
         <li><NavLink to="/bag">Shopping Bag</NavLink></li>
       </ul>
-    
+
       <h1 className="heading">ZARA</h1>
-    
+
       <div className="contact-box">
         <div className="contact-form">
           <form id="contactForm" onSubmit={handleSubmit}>
