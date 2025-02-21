@@ -70,11 +70,11 @@ const datatransfer = createContext();
 
 function App() {
   const [itemsSet, setItemsSet] = useState(new Map());
-
+  
   const CartItems = (id) => {
     setItemsSet(prevMap => {
       const newMap = new Map(prevMap);
-
+      
       if (newMap.has(id)) {
         newMap.set(id, newMap.get(id) + 1);
       } else {
@@ -82,13 +82,13 @@ function App() {
       }
       return newMap;
     });
-
+    
     toast.success('Added successfully', {
       position: "bottom-center",
       autoClose: 3000,
     });
   };
-
+  
   return (
     <>
       <datatransfer.Provider value={{ CartItems, itemsSet, setItemsSet }}>
