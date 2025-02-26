@@ -111,6 +111,7 @@
   border-style: solid;
   background: white;
   border-color: black;
+  text-align: center; /* Add this line to center the text */
 }
 
 .searchdivinside {
@@ -128,6 +129,7 @@
   border: none;
   font-size: 18px;
   outline: none;
+  border-radius: 5px; /* Add this line to set the border radius */
 }
 
 ::placeholder {
@@ -293,6 +295,8 @@ button[type="submit"]:hover {
   align-items: center;
   height: 100vh;
   overflow-y: hidden;
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  font-family: sans-serif; /* Add this line to change the font to sans-serif */
 }
 
 .logindiv {
@@ -302,13 +306,15 @@ button[type="submit"]:hover {
   border-radius: 10px;
   box-shadow: 1px 1px 6px gray, -1px -1px 6px gray;
   background-color: whitesmoke;
+  overflow: hidden;
+  font-family: sans-serif; /* Add this line to change the font to sans-serif */
 }
 
 .divgreen {
   width: 680px;
   height: 110vh;
   background-image: url(../public/images/backG4.jpg);
-  background-size: 580px 900px;
+  background-size: cover;
   opacity: 0.7;
   background-repeat: no-repeat;
   margin-top: -85px;
@@ -319,30 +325,53 @@ button[type="submit"]:hover {
   height: 60%;
   width: 260px;
   margin: 180px 0px 0px 170px;
+  font-family: sans-serif; /* Add this line to change the font to sans-serif */
 }
 
 .logininfo input {
   outline: none;
   border: 0.5px solid black;
-  width: 270px;
+  width: 100%; /* Changed to 100% to match the container width */
   height: 40px;
   font-size: 25px;
   margin: 15px 0px 12px 0px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif; /* Add this line to change the font to sans-serif */
 }
 
 .submit {
-  height: 30px;
+  height: 40px;
+  width: 100%; /* Changed to 100% to match the container width */
   border-radius: 25px;
   text-align: center;
-  font-size: 10px;
+  font-size: 18px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: sans-serif; /* Add this line to change the font to sans-serif */
 }
 
 .submit:hover {
-  cursor: pointer;
+  background-color: #555;
 }
 
-.signup:hover {
-  cursor: pointer;
+.signup {
+  text-align: center;
+  margin-top: 20px;
+  font-family: sans-serif; /* Add this line to change the font to sans-serif */
+}
+
+.signup a {
+  color: #007bff;
+  text-decoration: none;
+  font-family: sans-serif; /* Add this line to change the font to sans-serif */
+}
+
+.signup a:hover {
   text-decoration: underline;
 }
 
@@ -393,13 +422,12 @@ button[type="submit"]:hover {
   width: 100%;
   margin-top: 120px;
   border-style: solid;
-  /* background-color: #45a049; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.first {
+.first, .sec {
   height: 25px;
   width: 100%;
   border-style: solid;
@@ -408,47 +436,39 @@ button[type="submit"]:hover {
   align-items: center;
 }
 
-.sec {
-  height: 25px;
-  width: 100%;
-  border-style: solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-p {
-  font-size: 12px;
-}
-
-
-/*shopping cart*/
-
-.cart {
-  background-color: white;
-  border-radius: 8px;
+.shopping-bag-container {
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
   padding: 20px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 90vw;
   margin: auto;
   margin-top: 2%;
 }
 
-h2 {
+.shopping-bag-header {
   text-align: center;
   margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
 }
 
 .cart-item {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .cart-item img {
   width: 100px;
   height: 100px;
   margin-right: 15px;
+  border-radius: 8px;
 }
 
 .item-details {
@@ -457,10 +477,13 @@ h2 {
 
 .item-name {
   font-weight: bold;
+  font-size: 18px;
+  color: #333;
 }
 
 .item-price {
   color: green;
+  font-size: 16px;
 }
 
 .item-quantity {
@@ -480,11 +503,13 @@ h2 {
 
 .quantity {
   margin: 0 10px;
+  font-size: 16px;
 }
 
 .item-total {
   font-weight: bold;
   margin-left: 15px;
+  font-size: 16px;
 }
 
 .total {
@@ -492,9 +517,6 @@ h2 {
   margin-top: 20px;
   font-size: 18px;
   font-weight: bold;
-}
-
-.total {
-  text-align: center;
+  color: #333;
 }
 

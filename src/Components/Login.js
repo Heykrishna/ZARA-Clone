@@ -46,7 +46,7 @@ const Login = () => {
               />
               <br />
               <input className="submit" type="submit" value="Login" />
-              <h4 style={{ textAlign: "center" }}>
+              <h4 className="signup">
                 Don't have an account? <NavLink to="/signup">Sign up</NavLink>
               </h4>
             </form>
