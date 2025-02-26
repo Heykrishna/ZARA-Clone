@@ -6,22 +6,23 @@ import { useNavigate } from "react-router-dom";
 
 const Kids = () => {
   const [cartCount, setCartCount] = useState(0);
-  const { CartItems, itemsSet } = useContext(datatransfer)
+  const { CartItems, itemsSet } = useContext(datatransfer);
 
   const navigate = useNavigate();
   const gotobag = () => {
     navigate("/bag");
-  }
+  };
 
   useEffect(() => {
   }, [itemsSet]);
 
-  const handleAddToCart = () => {
+  const handleAddToCart = (productId) => {
+    CartItems(productId);
     setCartCount(cartCount + 1);
   };
 
-  // Filter products to show only items from the "men" category
-  const menProducts = data.filter(product => product.category === "kids");
+  // Filter products to show only items from the "kids" category
+  const kidsProducts = data.filter(product => product.category === "kids");
 
   return (
     <div className="showCart">
@@ -42,19 +43,16 @@ const Kids = () => {
         </ul>
         <div className="cart"></div>
         <div className="container">
-          {menProducts.map((product, index) => (
+          {kidsProducts.map((product, index) => (
             <div key={index}>
               <img className="categoryimg" src={product.image} alt="not found" />
               <h4 className="categoryh4">{product.name}</h4>
               <h4 className="price">
-                <span className="prevprice">&#8377;{product.prevPrice}</span> &#8377;{product.price} <span className="discount">{product.discount}%</span>
-                {/* <span><button className="cartadd" onClick={() => CartItems(product.id)}>Add to cart</button></span> */}
+                <span className="prevprice">&#8377;{product.prevPrice}</span> &#8377;{product.price} <span className="discount">{product.discount}</span>
                 {
                   !itemsSet.has(product.id)
-                    ?
-                    <span><button className="cartadd" onClick={() => CartItems(product.id)}>Add to cart</button></span>
-                    :
-                    <span><button onClick={gotobag} className="cartadd">Go to cart</button></span>
+                    ? <span><button className="cartadd" onClick={() => handleAddToCart(product.id)}>Add to cart</button></span>
+                    : <span><button onClick={gotobag} className="cartadd">Go to cart</button></span>
                 }
               </h4>
             </div>
@@ -66,9 +64,9 @@ const Kids = () => {
             <h1 className="footerZARA">ZARA</h1>
             <ul className="footerul">
               <li><a href="https://www.instagram.com/zara/">Instagram</a></li>
-              <li><a href="help.html">Customer Support</a></li>
+              <li><NavLink to="/help">Customer Support</NavLink></li>
               <li><a href="https://www.whatshot.in/chandigarh/zara-elante-mall-industrial-area-phase-1-chandigarh-v-156206">Find a Store</a></li>
-              <li><a href="faq.html">FAQs</a></li>
+              <li><NavLink to="/faq">FAQs</NavLink></li>
             </ul>
             <div className="subscribe-div">
               <input id="subscribe" type="email" placeholder="Enter your email to subscribe" />

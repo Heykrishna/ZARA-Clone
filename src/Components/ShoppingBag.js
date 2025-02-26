@@ -18,6 +18,7 @@ const ShoppingBag = () => {
         </div>
       </div>
       <div className="total">Total: $20.00</div>
+      <a href="/checkout" className="checkout-btn">Proceed to Checkout</a>
     </div>
   );
 };

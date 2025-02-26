@@ -44,10 +44,10 @@ const Bag = () => {
       <h1 className="heading">ZARA</h1>
       <div className="fav">
         <div className="first">
-          <p>SHOPPING BAG</p>
+          <button onClick={() => console.log('Shopping Bag clicked')}>Shopping Bag</button>
         </div>
         <div className="sec">
-          <p>FAVOURITES</p>
+          <button onClick={() => console.log('Favourites clicked')}>Favourites</button>
         </div>
       </div>
 
@@ -69,7 +69,7 @@ const Bag = () => {
                   <span className="quantity">{quantity}</span>
                   <button className="quantity-btn" onClick={() => increaseValueByOne(itemsSet, item.id)}>+</button>
                 </div>
-                <span className="item-total">{(item.price * quantity).toFixed(2)}</span>
+                <span className="item-total">&#8377;{(item.price * quantity).toFixed(2)}</span>
               </div>
             );
           })

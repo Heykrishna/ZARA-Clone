@@ -45,9 +45,9 @@ const Signup = () => {
                 onChange={(e) => setPassword(e.target.value)}
               />
               <br />
-              <input className="submit" type="submit" value="Login" />
-              <h4 style={{ textAlign: "center" }}>
-                Don't have an account? <NavLink to="/signup">Sign up</NavLink>
+              <input className="submit" type="submit" value="Sign Up" />
+              <h4 className="signup">
+                Already have an account? <NavLink to="/login">Login</NavLink>
               </h4>
             </form>
           </div>

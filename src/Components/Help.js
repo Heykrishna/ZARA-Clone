@@ -55,6 +55,7 @@ const Help = () => {
       <h1 className="heading">ZARA</h1>
 
       <div className="contact-box">
+        <h2>Contact Us</h2>
         <div className="contact-form">
           <form id="contactForm" onSubmit={handleSubmit}>
             <input
